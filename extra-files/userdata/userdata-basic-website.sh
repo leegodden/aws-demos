@@ -11,9 +11,9 @@ yum install git -y
 # Install NodeJS
 echo "Installing NodeJS"
 touch .bashrc
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-. /.nvm/nvm.sh
-nvm install --lts
+curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+yum update
+yum install -y nodejs
 
 # Clone website code
 echo "Cloning website"

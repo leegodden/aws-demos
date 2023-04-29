@@ -19,7 +19,7 @@ yum install -y nodejs
 echo "Cloning website"
 mkdir -p /demo-website
 cd /demo-website
-git clone https://github.com/academind/aws-demos.git .
+git clone https://github.com/leegodden/aws-demos.git .
 cd dynamic-website-basic
 
 # Install dependencies
